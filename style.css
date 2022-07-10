@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('https://pa1.narvii.com/6080/526745b3cd761bc7c96c8e0fa833042c73d6be06_hq.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  /* align-content: center; */
+  /* align-items: center; */
+}
+
+.card-welcome {
+  background: rgb(247,230,253);
+  background: linear-gradient(90deg, rgba(247,230,253,1) 0%, rgba(202,191,236,1) 50%, rgba(139,222,245,1) 100%);
+  width: 500px;
+  height: 200px;
+  margin-top: 200px;
+  border-radius: 1em;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.img-intro {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: -120px;
+  border: 5px solid white;
+}
+
+.button-intro {
+  padding: 14px 35px;
+  border: none;
+  font-size: large;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 10px;
+  color: #edacfc;
+}
+
+.button-intro:hover {
+  background-color: transparent;
+  color: white;
+  transition: 0.5s;
+  border: 1px solid #44B5E0;
+}
