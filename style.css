@@ -4,21 +4,26 @@
 }
 
 body {
-  background-image: url('https://pa1.narvii.com/6080/526745b3cd761bc7c96c8e0fa833042c73d6be06_hq.gif');
+  background-image: url('https://wallpaperboat.com/wp-content/uploads/2021/03/15/70899/anime-beach-13.jpg');
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
 }
 
 main {
   display: flex;
   justify-content: center;
-  /* align-content: center; */
-  /* align-items: center; */
+  flex-grow: 1;
+  align-items: center;
 }
 
 .card-welcome {
-  background: rgb(247,230,253);
-  background: linear-gradient(90deg, rgba(247,230,253,1) 0%, rgba(202,191,236,1) 50%, rgba(139,222,245,1) 100%);
+  background-image: url('https://i0.wp.com/davinci-edition.com/wp-content/uploads/2017/10/wildtextures-old-paper-texture-3.jpg');
+  background-position: center;
   width: 500px;
   height: 200px;
   margin-top: 200px;
@@ -28,13 +33,14 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  margin-top: -300px;
 }
 
 .img-intro {
   border-radius: 50%;
   width: 150px;
   margin-top: -120px;
-  border: 5px solid white;
+  border: 5px solid rgb(143, 120, 104);
 }
 
 .button-intro {
@@ -45,12 +51,63 @@ main {
   font-weight: bold;
   cursor: pointer;
   border-radius: 10px;
-  color: #edacfc;
+  color: #be9285;
 }
 
 .button-intro:hover {
   background-color: transparent;
-  color: white;
+  color: #22130F;
   transition: 0.5s;
-  border: 1px solid #44B5E0;
+  border: 1px solid #22130F;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+#menu {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+ul {
+  display: flex;
+  height: 140px;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.wanted {
+  width: 120px;
+  border: 1px solid rgb(97, 79, 79);
+  background-image: url('https://i0.wp.com/davinci-edition.com/wp-content/uploads/2017/10/wildtextures-old-paper-texture-3.jpg');
+  background-position: center;
+  height: 100%;
+}
+
+.procurados {
+  width: 80px;
+  border: 1px solid black;
+}
+
+span {
+  color: #22130F;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+#menu {
+  visibility: hidden;
 }
