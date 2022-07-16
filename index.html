@@ -21,15 +21,15 @@
     <header class="">
       <nav class="animate__animated" id="menu">
         <ul>
-          <li class="wanted animate__animated">
+          <li class="wanted animate__animated" onclick="profile('luffy')">
             <span>WANTED</span>
             <img
               class="procurados"
-              src="https://i.pinimg.com/736x/9c/2c/c2/9c2cc293908d687ec3c4a20db00d46b4.jpg"
+              src="https://i.pinimg.com/564x/40/a6/1c/40a61cdf9eab60348718ab0916688760.jpg"
             />
             <span>LUFFY</span>
           </li>
-          <li class="wanted animate__animated">
+          <li class="wanted animate__animated" onclick="profile('zoro')">
             <span>WANTED</span>
             <img
               src="https://pt-static.z-dn.net/files/d0a/8f30fce0d7536a3526c346003e6155ef.jpeg"
@@ -38,18 +38,17 @@
             />
             <span>ZORO</span>
           </li>
-          <a href="www.google.com">
-            <li class="wanted animate__animated">
-              <span>WANTED</span>
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3A0Y6MXfqEzypwYoX_9xkf6m6L0R7nC7oMQ&usqp=CAU"
-                alt=""
-                class="procurados"
-              />
-              <span>NAMI</span>
-            </li></a
-          >
-          <li class="wanted animate__animated">
+
+          <li class="wanted animate__animated" onclick="profile('nami')">
+            <span>WANTED</span>
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3A0Y6MXfqEzypwYoX_9xkf6m6L0R7nC7oMQ&usqp=CAU"
+              alt=""
+              class="procurados"
+            />
+            <span>NAMI</span>
+          </li>
+          <li class="wanted animate__animated" onclick="profile('usopp')">
             <span>WANTED</span>
             <img
               src="https://64.media.tumblr.com/b7023d5a88365f547237355cd815a886/tumblr_pv1wik3tEm1xw4fafo1_400.png"
@@ -58,7 +57,7 @@
             />
             <span>USOPP</span>
           </li>
-          <li class="wanted animate__animated">
+          <li class="wanted animate__animated" onclick="profile('sanji')">
             <span>WANTED</span>
             <img
               src="https://yt3.ggpht.com/ytc/AKedOLRXfBPTVMtyv7B5f8G1Q6_oD2Z_5TyLXuRgkSfD=s250-c-k-c0x00ffffff-no-rj"
@@ -67,7 +66,7 @@
             />
             <span>SANJI</span>
           </li>
-          <li class="wanted animate__animated">
+          <li class="wanted animate__animated" onclick="profile('chopper')">
             <span>WANTED</span>
             <img
               src="https://i.pinimg.com/474x/c4/b1/d5/c4b1d5fe0413580681a83989e3656290.jpg"
@@ -76,7 +75,7 @@
             />
             <span>CHOPPER</span>
           </li>
-          <li class="wanted animate__animated">
+          <li class="wanted animate__animated" onclick="profile('robin')">
             <span>WANTED</span>
             <img
               src="https://i.pinimg.com/originals/26/0a/06/260a0691899db3bcc8f7a01821b36f2e.jpg"
@@ -99,6 +98,28 @@
         >
           Embarcar no Navio
         </button>
+      </section>
+      <section class="container-playlist animate__animated">
+        <div class="pictures-playlist animate__animated" id="character-pics">
+          <img class="icon-playlist" src="" alt="" />
+          <img class="icon-playlist" src="" alt="" />
+          <img class="icon-playlist" src="" alt="" />
+          <img class="icon-playlist" src="" alt="" />
+        </div>
+        <div class="playlist-area">
+          <div class="container-text-intro">
+            <span class="text-playlist-intro"
+              >Open up your heart to me, we'll explore the seven seas, sail away
+              and find your dream, and if you drown I'll help you keep your head
+              up to breathe</span
+            >
+          </div>
+          <div class="container-final">
+            <span id="text-playlist-area"
+              >Clique em um tripulante para começar.</span
+            >
+          </div>
+        </div>
       </section>
     </main>
 
