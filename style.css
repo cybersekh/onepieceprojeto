@@ -119,7 +119,7 @@ a {
   visibility: hidden;
   background-image: url(oldpaper.png);
   background-position: center;
-  background-size: contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   align-items: center;
   width: 70%;
