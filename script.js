@@ -13,6 +13,9 @@ const personagens = {
       "https://i.pinimg.com/564x/08/06/1f/08061fae23095cdd59835ccfe9466dd4.jpg",
       "https://i.pinimg.com/564x/1e/d7/a6/1ed7a6fad41c2a97ed3da47f55ca3905.jpg"
     ],
+    // playlist: [
+    //   <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7oqE5MJp3kv1YwtWmI6v4n?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+    // ]
   },
   zoro: {
     imagens: [
@@ -84,7 +87,7 @@ function removeMenu(event) {
 }
 
 function profile (personagem) {
-  const imgs = characterPics.querySelectorAll("img")
+  const imgs = characterPics.querySelectorAll("img");
   for (let i = 0; i < imgs.length; i++) {
     imgs[i].src = personagens[personagem].imagens[i]
   }
