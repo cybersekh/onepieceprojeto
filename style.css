@@ -90,7 +90,7 @@ li {
 .wanted {
   width: 120px;
   border: 1px solid rgb(97, 79, 79);
-  background-image: url('https://i0.wp.com/davinci-edition.com/wp-content/uploads/2017/10/wildtextures-old-paper-texture-3.jpg');
+  background-image: url('oldpaper.png');
   background-position: center;
   height: 100%;
   cursor: pointer;
@@ -160,9 +160,9 @@ a {
   justify-content: center;
   height: 60%;
   width: 650px;
-  border: 3px solid fuchsia;
+  /* border: 3px solid fuchsia; */
   margin: 30px 100px 0px 20px;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 
 #text-playlist-area {
@@ -182,20 +182,74 @@ a {
 } */
 
 .text-one {
-  font-size: 5em;
+  font-size: 4.2em;
   text-transform: uppercase;
-  border: 5px solid green;
+  align-self: center;
+  color: #6d4b41;
 }
 
 .text-two {
+  display: flex;
   font-size: 4em;
+  justify-content: space-around;
+  font-family: 'Cookie', cursive;
+  font-weight: 400;
+  color: #be9285;
+}
+
+.text-three {
+  display: flex;
+  font-size: 1.6em;
   text-transform: uppercase;
+  justify-content: space-around;
   font-family: 'Ubuntu';
-  writing-mode:vertical-rl;
-  background-color: blue;
+  color: #493d39;
+}
+
+.text-four {
+  font-size: 3em;
+  text-transform: uppercase;
+  justify-content: space-around;
+  color: #6d4b41;
+}
+
+.block-drown {
+  display: flex;
+  justify-content: center;
+}
+
+.drown {
+  color: #73d1e9;
+}
+
+.text-five {
+  display: flex;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  justify-content: space-around;
+  font-family: 'Ubuntu';
+  color: #493d39;
 }
 
 .first-block-text {
   display: flex;
-  background-color: red;
+}
+
+.nakama {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  padding: 5px;
+  background-color: #be9285;
+  color: white;
+}
+
+a:hover {
+  padding: 10px;
+  color: #493d39;
+  transition: 1000ms;
 }
